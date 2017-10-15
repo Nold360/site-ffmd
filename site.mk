@@ -6,7 +6,6 @@ this_dir := $(shell dirname $(abspath $(lastword $(MAKEFILE_LIST))))
 #		The gluon-mesh-batman-adv-* package must come first because of the dependency resolution
 
 GLUON_SITE_PACKAGES := \
-	gluon-mesh-batman-adv-14 \
 	gluon-alfred \
 	gluon-respondd \
 	gluon-autoupdater \
@@ -18,13 +17,11 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-mesh-vpn \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
-	gluon-luci-admin \
-	gluon-luci-autoupdater \
-	gluon-luci-portconfig \
-	gluon-luci-private-wifi \
-	gluon-luci-wifi-config \
-	gluon-next-node \
-	gluon-neighbour-info \
+	gluon-web-admin \
+	gluon-web-autoupdater \
+	gluon-web-network \
+	gluon-web-wifi-config \
+	gluon-mesh-batman-adv-15 \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
 	gluon-setup-mode \
